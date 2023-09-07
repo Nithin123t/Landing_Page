@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    }
+
+.header {
+    background-color: rgb(228, 238, 228);
+    padding: 10px;
+   
+}
+
+.menu {
+   display: flex;
+  justify-content: space-between;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.content {
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.content h1 {
+    position:relative;
+    top: 30px;
+    left: 100px;
+    color: aliceblue;
+    
+}
+
+.content h2 {
+    position: relative;
+    top: 120px;
+    left: 600px;
+    color: rgb(225, 229, 233);
+}
+
+.content p {
+    color: rgb(225, 229, 232);
+    position: relative;
+    top:50px;
+    left: 100px;
+}
+
+.cta-button {
+    color: rgb(227, 229, 232);
+    position: relative;
+    bottom: 500px;
+    left: 140px;
+    border-radius: 30px;
+    border-style: solid;
+    background-color: rgb(46, 122, 160);
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.content img {
+    position: relative;
+    bottom: 400px;
+}
+
+.content img:last-child {
+    position: relative;
+    bottom: 300px;
+    left: 600px;
+}
+.design{
+    position: absolute;
+    
+    top: 230px;
+    left: 540px;
+    
+}
+.design img{
+    width: 40%;
+}
+    .buttn {
+        background: #3498db;
+        background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+        background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+        background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+        background-image: -o-linear-gradient(top, #3498db, #2980b9);
+        background-image: linear-gradient(to bottom, #3498db, #2980b9);
+        -webkit-border-radius: 20;
+        -moz-border-radius: 20;
+        border-radius: 20px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 14px;
+        padding: 8px 14px 8px 14px;
+        text-decoration: none;
+      }
+      .buttn:hover {
+        background: #c54eed;
+        background-image: -webkit-linear-gradient(top, #c54eed, #d6f011);
+        background-image: -moz-linear-gradient(top, #c54eed, #d6f011);
+        background-image: -ms-linear-gradient(top, #c54eed, #d6f011);
+        background-image: -o-linear-gradient(top, #c54eed, #d6f011);
+        background-image: linear-gradient(to bottom, #c54eed, #d6f011);
+        text-decoration: none;
+      }
+
+      a{
+        text-decoration: none;
+      }
